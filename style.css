@@ -1,0 +1,13 @@
+card-neon {
+  /* Uma borda fina com uma cor bem viva */
+  border: 2px solid #00f3ff; 
+  
+  /* O segredo do efeito neon: várias camadas de sombra com a mesma cor */
+  box-shadow: 0 0 5px #00f3ff, 
+              0 0 15px #00f3ff, 
+              inset 0 0 5px #00f3ff;
+              
+  background-color: #121214; /* Fundo escuro para destacar o brilho */
+  border-radius: 8px;
+  padding: 20px;
+}
